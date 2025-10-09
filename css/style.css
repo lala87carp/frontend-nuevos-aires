@@ -104,6 +104,63 @@ h4 {
     padding: 0.5em;
 }
 
+/*FOOTER*/
+footer {
+    background-color: #0d8cca;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.iconos-redes{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.iconos-redes a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.registrado-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d4e8f7;
+    padding: 0.5rem 1rem 1rem 0rem;
+}
+
+/*CONTACTO*/
+.contacto {
+    background-color: #d4e8f7;
+    border: solid #0d8cca 1px;
+    margin:2em 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-input {
+    display:flex;
+    flex-direction: column;
+    margin: 0.5rem 0 1rem 0;
+    width: 50%;
+}
+
+.grupo-input {
+
+}
 /*MediaQueries*/
 
 /*TABLET*/
@@ -156,6 +213,14 @@ h4 {
         margin-top: 2em;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
         border-radius: 10px;
+}
+.registrado-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d4e8f7;
+    padding: 0.5rem 1rem 2rem 1rem;
 }
 }
 

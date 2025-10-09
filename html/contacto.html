@@ -9,10 +9,10 @@
         <!-- Open Graph sirve para controlar como se muestra el contenido en redes tengo que estudiarlo antes de aplicarlo-->
 
         <!--Favicon-->
-        <link rel="icon" href="./images/nuevos aires - tienda nube - favicon.png">
+        <link rel="icon" href="../images/nuevos aires - tienda nube - favicon.png">
 
         <!--CSS-->
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
 
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,52 +26,41 @@
     <body>
         <header>
             <p class="header-logo">
-                <a href="./index.html"><img src="./images/nuevos aires - tool kit_logo head web.png"></a>
+                <a href="../index.html"><img src="../images/nuevos aires - tool kit_logo head web.png"></a>
             </p>
             <nav class="header-nav">
                 <ul>
-                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="../index.html">INICIO</a></li>
                     <li><a href="#">PRODUCTOS</a></li>
                     <li><a href="./html/contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>¡Hola!</h1>
-            <h4>Nuevos Aires es una marca de ropa y accesorios con identidad.</h4>
-            <p>Ofrecemos prendas de moda circular seleccionadas con amor, y cápsulas de diseño propio de ediciones limitadas. <br>
-            Creemos en una forma de vestir más consciente, creativa y personal.</p>
-            <h4>Respirá Nuevos Aires.</h4>
-            <section class="home-productos">
-                <div class="contenedor-tarjetas-home">
-                    <h2>Nuestros Productos</h2>
-                    <article class="home-tarjeta-productos">
-                        <img src="./images/home-tarjeta-productos-remera.jpg" alt="remera corazon bordado">
-                        <h3>Remera Bordada</h3>
-                        <p>Remera de algodón bordada</p>
-                    </article>
-                    <article class="home-tarjeta-productos">
-                        <img src="./images/home-tarjeta-productos-cardigancorazon.jpg" alt="cardigan crochet">
-                        <h3>Cardigan Corzaón</h3>
-                        <p>Cardigan realizado en crochet</p>
-                    </article>
-                    <article class="home-tarjeta-productos">
-                        <img src="./images/home-tarjeta-productos-totebag.jpg" alt="tote bag estampado">
-                        <h3>Tote Bag</h3>
-                        <p>Tote bag de lienzo con estampa</p>
-                    </article>
-                    <article class="home-tarjeta-productos">
-                        <img src="./images/home-tarjeta-productos-carteracrochet.jpg" alt="cartera crochet">
-                        <h3>Cartera Crochet</h3>
-                        <p>Cartera redonda de crochet</p>
-                    </article>
+            <section class="contacto" >
+            <h2>¿Querés contactarte con nosotros?</h2>
+            <form class="formulario-contacto" action="https://formspree.io/f/xyzddabd" method="POST">
+                <div class="grupo-input">
+                    <label>
+                        Tu email:
+                        <input type="email" name="email">
+                    </label>
                 </div>
+                <div class="grupo-input">
+                    <label>
+                        Tu mensaje:
+                        <textarea name="message"></textarea>
+                    </label>
+                </div>
+            <button class="btn" type="submit">Enviar</button>
+
+            </form>
             </section>
         </main>
         <footer>
             <section class="contenedor">
                 <p class="header-logo">
-                    <a href="./index.html"><img src="./images/nuevos aires - tool kit_logo head web.png"></a>
+                    <a href="../index.html"><img src="../images/nuevos aires - tool kit_logo head web.png"></a>
                 </p>
                 <ul class="iconos-redes">
                     <li class="icono-red-social"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
