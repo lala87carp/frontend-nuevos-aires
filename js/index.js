@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const img = document.createElement("img")
             img.alt = producto.nombre
-            img.src = './images/${producto.img}'
+            img.src = `./images/${producto.img}`;
 
             const titulo = document.createElement("h3")
             titulo.textContent = producto.nombre
             
             const precio = document.createElement("p")
-            precio.textContent = '$${producto.precio}'
+            precio.textContent = `$${producto.precio}`;
 
             const boton = document.createElement("button")
                 boton.classList.add("btn")
