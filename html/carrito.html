@@ -9,10 +9,10 @@
         <!-- Open Graph sirve para controlar como se muestra el contenido en redes tengo que estudiarlo antes de aplicarlo-->
 
         <!--Favicon-->
-        <link rel="icon" href="./images/nuevos aires - tienda nube - favicon.png">
+        <link rel="icon" href="../images/nuevos aires - tienda nube - favicon.png">
 
         <!--CSS-->
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
 
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,34 +26,33 @@
     <body>
         <header>
             <p class="header-logo">
-                <a href="./index.html"><img src="./images/nuevos aires - tool kit_logo head web.png"></a>
+                <a href="../index.html"><img src="../images/nuevos aires - tool kit_logo head web.png"></a>
             </p>
             <nav class="header-nav">
                 <ul>
-                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="../index.html">INICIO</a></li>
                     <li><a href="#">PRODUCTOS</a></li>
                     <li><a href="./html/contacto.html">CONTACTO</a></li>
-                    <li><a href="./html/carrito.hmtl" class="carrito-icono"><i class="fa-solid fa-basket-shopping"> </i><span id="contador-carrito"> 0</span></li>
+                    <li><a href="./html/carrito.hmtl" class="carrito-icono"><i class="fa-solid fa-basket-shopping"></i><span id="contador-carrito">0</span></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>¡Hola!</h1>
-            <h4>Nuevos Aires es una marca de ropa y accesorios con identidad.</h4>
-            <p>Ofrecemos prendas de moda circular seleccionadas con amor, y cápsulas de diseño propio de ediciones limitadas. <br>
-            Creemos en una forma de vestir más consciente, creativa y personal.</p>
-            <h4>Respirá Nuevos Aires.</h4>
-            <section class="home-productos">
-                <div id="contenedor-tarjetas-home">
-                    <h2>Nuestros Productos</h2>
-                    <!--los productos vienen desde index.js-->
-                </div>
+            <h1>Carrito de Compras</h1>
+            <section id="contenedorCarrito">
+                <!--productos del carrito-->
+            </section>
+            <div class="acciones-carrito" id="acciones-carrito">
+                <!--botones agregar y eliminar productos se agregan desde js-->
+            </div>
+            <section id="resumen-carrito">
+                <!--resumen del carrito-->
             </section>
         </main>
         <footer>
             <section class="contenedor">
                 <p class="header-logo">
-                    <a href="./index.html"><img src="./images/nuevos aires - tool kit_logo head web.png"></a>
+                    <a href="../index.html"><img src="../images/nuevos aires - tool kit_logo head web.png"></a>
                 </p>
                 <ul class="iconos-redes">
                     <li class="icono-red-social"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
@@ -63,6 +62,6 @@
             </section>
             <h5 class="registrado-footer">© 2025 - Diseñado por: Laura Oviedo. Todos los derechos reservados.</h5>
         </footer>
-        <script src="./js/index.js" type="module"></script>
+        <script src="../js/carrito.js" type="module"></script>
     </body>
 </html>
